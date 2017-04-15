@@ -34,9 +34,9 @@ paginate: 20
 
 #### Site
 title : MrLiu-647
-tagline: "一个正在努力成长的“95后iOS程序员"
+tagline: 一个正在努力成长的“95后iOS程序员”
 assets: /assets
-baseurl: "liubaiqi.cn"
+baseurl: "www.liubaiqi.cn"
 
 #### Language
 language: zh-CN    ## blog site languages: en, zh-CN, zh-TW
