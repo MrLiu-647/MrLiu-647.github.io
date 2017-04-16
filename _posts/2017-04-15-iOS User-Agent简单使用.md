@@ -1,8 +1,11 @@
 ---
 title: iOS Uer-Agent简单使用
 date: 2017-04-15
-tags: iOS Uer-Agent
-categories: iOS
+tags:
+- iOS
+- Uer-Agent
+categories:
+- iOS
 ---
 
 ####- User-Agent：中文名为[用户代理](http://baike.baidu.com/item/%E7%94%A8%E6%88%B7%E4%BB%A3%E7%90%86)，简称 UA
