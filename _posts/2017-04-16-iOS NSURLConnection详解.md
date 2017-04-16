@@ -1,12 +1,15 @@
 ---
 title: iOS NSURLConnection详解
 date: 2017-04-15
-tags: iOS 网络请求
-categories: iOS
+tags:
+- iOS
+- 网络请求
+categories:
+- iOS
 ---
 
-iOS 9.0之前 ，使用NSURLConnection
-iOS 9.0之后，苹果官方推出NSURLSession
+iOS 9.0之前 ，使用NSURLConnection比较常见，但9.0之后苹果不推荐使用
+iOS 7.0之后，苹果官方推出NSURLSession并在9.0之后推荐使用
 本文作为学习和了解，详解iOS9.0之前的NSURLConnection
 
 ##### NSURLConnection：
