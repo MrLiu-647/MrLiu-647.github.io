@@ -75,7 +75,7 @@ imglogo:
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.
 apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
 author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
-banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
+banner_img: img/banner.jpg ## size:1920px*200px+. Banner Picture
 
 #### index post is expanding or not
 index:
@@ -114,8 +114,8 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  647's Github: https://github.com/MrLiu-647
+  647's 简书: http://www.jianshu.com/u/6663b66c3df3
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
