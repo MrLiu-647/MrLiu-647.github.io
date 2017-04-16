@@ -33,8 +33,8 @@ defaults:
 paginate: 20
 
 #### Site
-title : Jekyll Jacman
-tagline: A fresh looking and responsive theme for Jekyll
+title : MrLiu's Blog
+tagline: 一个正在努力成长的95后iOS程序员
 assets: /assets
 baseurl:
 
