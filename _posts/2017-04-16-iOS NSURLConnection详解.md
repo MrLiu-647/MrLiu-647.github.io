@@ -10,6 +10,8 @@ categories:
 
 iOS 9.0之前 ，使用NSURLConnection比较常见，但9.0之后苹果不推荐使用
 iOS 7.0之后，苹果官方推出NSURLSession并在9.0之后推荐使用
+因为NSURLSession在异步上的处理要比NSURLConnection好
+
 本文作为学习和了解，详解iOS9.0之前的NSURLConnection
 
 ##### NSURLConnection：
