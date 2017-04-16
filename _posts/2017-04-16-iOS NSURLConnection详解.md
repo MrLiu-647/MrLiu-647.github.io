@@ -4,11 +4,12 @@ date: 2017-04-15
 tags: iOS 网络请求
 categories: iOS
 ---
+
 iOS 9.0之前 ，使用NSURLConnection
 iOS 9.0之后，苹果官方推出NSURLSession
 本文作为学习和了解，详解iOS9.0之前的NSURLConnection
 
-#####NSURLConnection：
+##### NSURLConnection：
 - 从 iOS 2.0 开始，已经有10多年的历史了
  异步方法在 iOS 5.0 之后才有 ，
 在 iOS 5.0 之后，是通过代理的方式，来实现网络开发
