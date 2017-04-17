@@ -15,7 +15,7 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 
 下面先说NSURLSession的简单用法：
 
-##### - 简单GET请求：
+#####简单GET请求：
 
 ```
 //NSSession简单演示
@@ -41,7 +41,7 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 ```
 注：所有的task都要调用resume方法才会开始进行请求
 
-#####-  简单POST请求：
+#####简单POST请求：
 POST比GET多一个request
 
 ```
@@ -60,7 +60,7 @@ NSURLSessionTask *task = [session dataTaskWithRequest:request
 
 ```
 
-#####- NSURLSession断点续传
+#####NSURLSession断点续传
 下面一个demo通过
 NSURLSessionDownloadDelegate代理方法
 实现下载功能，并提供断点续传
