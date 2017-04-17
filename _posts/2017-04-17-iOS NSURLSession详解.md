@@ -253,3 +253,7 @@ NSURLSessionDownloadDelegate代理方法
 @end
 
 ```
+
+NSURLSession对内存异步处理的优化非常好
+下载时，内存最高仅为33.7MB
+![NSURLSession详解](http://upload-images.jianshu.io/upload_images/3407530-0939dddd27d1720a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
