@@ -16,6 +16,7 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 下面先说NSURLSession的简单用法：
 
 ##### - 简单GET请求：
+
 ```
 //NSSession简单演示
 - (void)demo1{
@@ -35,12 +36,16 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 
     //4. 启动任务
     [task resume];
-}```
+}
+
+```
 注：所有的task都要调用resume方法才会开始进行请求
 
 #####-  简单POST请求：
 POST比GET多一个request
+
 ```
+-(void)demo2{
 NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login"];
 NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
 request.HTTPMethod = @"POST";
@@ -51,6 +56,8 @@ NSURLSession *session = [NSURLSession sharedSession];
 NSURLSessionTask *task = [session dataTaskWithRequest:request
                                    completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) { NSLog(@"%@", [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil]); }];
 [task resume];
+}
+
 ```
 
 #####- NSURLSession断点续传
@@ -59,8 +66,8 @@ NSURLSessionDownloadDelegate代理方法
 实现下载功能，并提供断点续传
 一共有三个Button，
 分别负责 “开始、暂停、继续”
-```
 
+````````
 #import "ViewController.h"
 #import "Button.h"
 @interface ViewController ()<NSURLSessionDownloadDelegate>
@@ -251,9 +258,9 @@ NSURLSessionDownloadDelegate代理方法
     //可以什么都不用写
 }
 @end
-
-```
+``````
 
 NSURLSession对内存异步处理的优化非常好
 下载时，内存最高仅为33.7MB
+
 ![NSURLSession详解](http://upload-images.jianshu.io/upload_images/3407530-0939dddd27d1720a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
