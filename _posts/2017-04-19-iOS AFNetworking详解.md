@@ -16,6 +16,7 @@ AFNetworking的使用也有一些改变。
 ####GET请求：
 -----------
 ```
+
 //GET请求
 -(void)demo1{
     NSString *urlString = @"http://www.liubaiqi.cn";
@@ -30,11 +31,13 @@ AFNetworking的使用也有一些改变。
         NSLog(@"%@",error);
     }];
 }
+
 ```
 
 ####POST请求：
 -----------
 ```
+
 //POST请求
 -(void)demo2{
     NSString *urlString = @"http://192.168.1.101:8080";
@@ -50,7 +53,9 @@ AFNetworking的使用也有一些改变。
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"%@",error);
     }];
-}```
+}
+
+```
 
 ####Download请求：
 -----------
