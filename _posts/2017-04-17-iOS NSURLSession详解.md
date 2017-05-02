@@ -15,8 +15,7 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 下面先说NSURLSession的简单用法：
 
 ##### 简单GET请求：
-
-```
+``````
 //NSSession简单演示
 - (void)demo1{
     //1. NSURL
@@ -36,14 +35,13 @@ NSURLSession为HTTP数据传输提供了一系列接口，
     //4. 启动任务
     [task resume];
 }
-
-```
+``````
 注：所有的task都要调用resume方法才会开始进行请求
 
 ##### 简单POST请求：
 POST比GET多一个request
 
-```
+``````
 -(void)demo2{
 NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login"];
 NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
@@ -56,8 +54,7 @@ NSURLSessionTask *task = [session dataTaskWithRequest:request
                                    completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) { NSLog(@"%@", [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil]); }];
 [task resume];
 }
-
-```
+``````
 
 ##### NSURLSession断点续传
 下面一个demo通过

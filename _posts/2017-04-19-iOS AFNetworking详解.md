@@ -12,9 +12,8 @@ iOS9.0之后，
 由于NSURLConnection的弃用，
 AFNetworking的使用也有一些改变。
 
-####GET请求：
+#### GET请求：
 -----------
-
 ```
 //GET请求
 -(void)demo1{
@@ -32,9 +31,8 @@ AFNetworking的使用也有一些改变。
 }
 ```
 
-####POST请求：
+#### POST请求：
 -----------
-
 ```
 //POST请求
 -(void)demo2{
@@ -54,9 +52,8 @@ AFNetworking的使用也有一些改变。
 }
 ```
 
-####Download请求：
+#### Download请求：
 -----------
-
 ```
 //DownLoad请求
 -(void)demo3{
@@ -92,9 +89,8 @@ AFNetworking的使用也有一些改变。
 }
 ```
 
-####Upload请求：
+#### Upload请求：
 -----------
-
 ```
 //UpLoad请求
 -(void)demo4{
@@ -125,10 +121,8 @@ AFNetworking的使用也有一些改变。
     [uploadTask resume];
 }
 ```
-
-####网络状态：
+#### 网络状态：
 -----------
-
 ```
 //网络状态
 -(void)demo5{

@@ -15,7 +15,7 @@ User-Agent在http协议里，头信息中有一个 User-Agent
 >user-agent 是非常不可靠的，原因就是它是客户端自己决定并发送给服务器
 
 在iOS中如何设置User-Agent？
-```
+``````
 //访问优酷视频
 -(void)demo{
     //访问网络
@@ -41,6 +41,6 @@ User-Agent在http协议里，头信息中有一个 User-Agent
 
     [self.view addSubview:web];
 }
-```
+``````
 以上就会用户代理为iPhone的AppleWebKit框架
 所以会根据 iphone的AppleWebKit 输出对应的界面。

@@ -13,7 +13,7 @@ iOS 7.0之后，苹果官方推出NSURLSession并在9.0之后推荐使用
 
 本文作为学习和了解，详解iOS9.0之前的NSURLConnection
 
-#####NSURLConnection：
+##### NSURLConnection：
 - 从 iOS 2.0 开始，已经有10多年的历史了
  异步方法在 iOS 5.0 之后才有 ，
 在 iOS 5.0 之后，是通过代理的方式，来实现网络开发
@@ -39,7 +39,7 @@ iOS 7.0之后，苹果官方推出NSURLSession并在9.0之后推荐使用
 
 #####Demo详解：
 
-```
+``````
 
 #import "ViewController.h"
 
@@ -278,6 +278,6 @@ iOS 7.0之后，苹果官方推出NSURLSession并在9.0之后推荐使用
 @end
 
 
-```
+``````
 
 PS：本文使用的下载源在本地服务器127.0.0.1，根据需要可以修改成其他下载源。
