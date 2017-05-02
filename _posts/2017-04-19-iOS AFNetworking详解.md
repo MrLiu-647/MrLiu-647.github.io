@@ -16,7 +16,6 @@ AFNetworking的使用也有一些改变。
 -----------
 
 ```
-
 //GET请求
 -(void)demo1{
     NSString *urlString = @"http://www.liubaiqi.cn";
@@ -31,14 +30,12 @@ AFNetworking的使用也有一些改变。
         NSLog(@"%@",error);
     }];
 }
-
 ```
 
 ####POST请求：
 -----------
 
 ```
-
 //POST请求
 -(void)demo2{
     NSString *urlString = @"http://192.168.1.101:8080";
@@ -55,7 +52,6 @@ AFNetworking的使用也有一些改变。
         NSLog(@"%@",error);
     }];
 }
-
 ```
 
 ####Download请求：
@@ -94,14 +90,12 @@ AFNetworking的使用也有一些改变。
     //启动任务
     [downloadTask resume];
 }
-
 ```
 
 ####Upload请求：
 -----------
 
 ```
-
 //UpLoad请求
 -(void)demo4{
     //创建NSURLSessionConfiguration
@@ -130,7 +124,6 @@ AFNetworking的使用也有一些改变。
     //启动任务
     [uploadTask resume];
 }
-
 ```
 
 ####网络状态：
@@ -163,7 +156,6 @@ AFNetworking的使用也有一些改变。
         }
     }];
 }
-
 ```
 
 ps:本文参考组长的博客：[MrFung's Blog](http://mrfung.cn/ios/2017/03/07/school#more)
