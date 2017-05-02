@@ -14,6 +14,7 @@ AFNetworking的使用也有一些改变。
 
 ####GET请求：
 -----------
+
 ```
 
 //GET请求
@@ -35,6 +36,7 @@ AFNetworking的使用也有一些改变。
 
 ####POST请求：
 -----------
+
 ```
 
 //POST请求
@@ -58,6 +60,7 @@ AFNetworking的使用也有一些改变。
 
 ####Download请求：
 -----------
+
 ```
 //DownLoad请求
 -(void)demo3{
@@ -91,10 +94,12 @@ AFNetworking的使用也有一些改变。
     //启动任务
     [downloadTask resume];
 }
+
 ```
 
 ####Upload请求：
 -----------
+
 ```
 
 //UpLoad请求
@@ -127,8 +132,10 @@ AFNetworking的使用也有一些改变。
 }
 
 ```
+
 ####网络状态：
 -----------
+
 ```
 //网络状态
 -(void)demo5{
@@ -156,6 +163,7 @@ AFNetworking的使用也有一些改变。
         }
     }];
 }
+
 ```
 
 ps:本文参考组长的博客：[MrFung's Blog](http://mrfung.cn/ios/2017/03/07/school#more)
