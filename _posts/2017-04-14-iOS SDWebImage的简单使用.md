@@ -2,7 +2,7 @@
 title: iOS SDWebImage的简单使用
 date: 2017-04-14
 tags:
-- iOS
+- 控件
 categories:
 - iOS
 ---

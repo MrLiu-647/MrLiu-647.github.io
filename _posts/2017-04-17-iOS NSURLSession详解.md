@@ -2,7 +2,6 @@
 title: iOS NSURLSession详解
 date: 2017-04-17
 tags:
-- iOS
 - 网络请求
 categories:
 - iOS

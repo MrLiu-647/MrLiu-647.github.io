@@ -3,7 +3,6 @@ title: iOS AFNetworking详解
 date: 2017-04-19
 tags:
 - 网络请求
-- iOS
 categories:
 - iOS
 ---
