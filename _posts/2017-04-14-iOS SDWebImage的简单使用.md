@@ -9,7 +9,7 @@ categories:
 
 
 首先导入 SDWebImage :
-```
+```1
 #import "ViewController.h"
 #import "UIImageView+WebCache.h"
 #import "UIImage+GIF.h"
@@ -20,7 +20,7 @@ categories:
 @end
 ```
 - 加载图片
-``````
+``````2
 //加载图片
 -(void)demo1{
     NSString *imgArr = @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1491303372770&di=47893a1f375d797458173301bb12db0d&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201501%2F29%2F154912worftckqkkv55trf.jpg";
@@ -39,7 +39,7 @@ categories:
 ``````
 
 - 加载gif
-``````
+``````3
 //加载gif
 -(void)demo2{
     UIImage *gif =[UIImage sd_animatedGIFNamed:@"xiaomai"];

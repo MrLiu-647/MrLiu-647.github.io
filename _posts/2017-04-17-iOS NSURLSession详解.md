@@ -16,7 +16,7 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 
 ##### 简单GET请求：
 
-``````
+``````1
 
 //NSSession简单演示
 - (void)demo1{
@@ -45,7 +45,7 @@ NSURLSession为HTTP数据传输提供了一系列接口，
 ##### 简单POST请求：
 POST比GET多一个request
 
-``````
+`````2
 
 -(void)demo2{
 NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login"];
@@ -60,7 +60,7 @@ NSURLSessionTask *task = [session dataTaskWithRequest:request
 [task resume];
 }
 
-``````
+`````
 
 ##### NSURLSession断点续传
 下面一个demo通过
@@ -69,7 +69,7 @@ NSURLSessionDownloadDelegate代理方法
 一共有三个Button，
 分别负责 “开始、暂停、继续”
 
-````````
+``````3
 
 #import "ViewController.h"
 #import "Button.h"
