@@ -7,7 +7,7 @@ categories:
 - iOS
 ---
 
-####User-Agent：中文名为[用户代理](http://baike.baidu.com/item/%E7%94%A8%E6%88%B7%E4%BB%A3%E7%90%86)，简称 UA
+#### User-Agent：中文名为[用户代理](http://baike.baidu.com/item/%E7%94%A8%E6%88%B7%E4%BB%A3%E7%90%86)，简称 UA
 User-Agent在http协议里，头信息中有一个 User-Agent
 
 >作用：告诉服务器，用户客户端是什么 浏览器 / 操作系统等 的信息。在某些特殊的情况下，服务器根据 浏览器 / 操作系统 的不同类型，输出不同的内容。
