@@ -1,0 +1,38 @@
+---
+title: iOS “字典转模型”的第三方框架
+date: 2017-09-27
+categories:
+- iOS
+---
+
+>前言：字典转模型的常用第三方框架有：
+1.Mantle：所有模型必须继承自MTModel。
+2.JSONModel：所有模型都必须继承自JSONModel。
+3.MJExtension：不需要强制继承任何类。（  最关键是我们中国人写的，还得到了更多的delveloper一起完善补充）
+
+>本文主要介绍MJExtension：一个ChineseCoder创作的框架。
+先附上地址：https://github.com/CoderMJLee/MJExtension
+如果有时间可以研究一下源代码
+
+使用起来非常方便。
+下面将举例说明:
+
+- 第一个例子：只用一行代码，懒加载 将tgs.plist中的数据转换成 数组（字典）tgs
+只需要填上文件名即可
+```TGS
+@interface ViewController ()
+
+/** 所有的团购数据 */
+@property (nonatomic, strong) NSArray *tgs;
+@end
+
+@implementation ViewController
+
+- (NSArray *)tgs
+{
+    if (!_tgs) {
+        _tgs = [BQTg mj_objectArrayWithFilename:@"tgs.plist"];
+    }
+    return _tgs;
+}
+```
