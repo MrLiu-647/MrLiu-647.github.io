@@ -1,5 +1,5 @@
 ---
-title:iOS cocodpods使用小结
+title: iOS cocodpods的使用小结
 date: 2018-01-19
 categories:
 - iOS
