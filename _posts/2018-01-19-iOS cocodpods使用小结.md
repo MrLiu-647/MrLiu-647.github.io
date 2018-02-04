@@ -10,7 +10,7 @@ categories:
 ![cocodpods.png](http://upload-images.jianshu.io/upload_images/3407530-a924c59cd2f02981.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-```
+```objc
 platform:ios,'11.0'
 
 target :你的项目名字 do
