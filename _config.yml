@@ -33,7 +33,7 @@ defaults:
 paginate: 20
 
 #### Site
-title : MrLiu's Blog
+title : MrLiuQ's Blog
 tagline: 一个正在努力成长的95后iOS小白
 assets: /assets
 baseurl:
@@ -114,8 +114,8 @@ toc:
 
 #### Links
 links:
-  MrLiu's Github: https://github.com/MrLiu-647
-  MrLiu's 简书: http://www.jianshu.com/u/6663b66c3df3
+  MrLiuQ's Github: https://github.com/MrLiu-647
+  MrLiuQ's 简书: http://www.jianshu.com/u/6663b66c3df3
   MrFung's Blog: http://mrfung.cn
   Lastdays's Blog: http://lastdays.cn
 
