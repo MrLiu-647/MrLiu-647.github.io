@@ -6,10 +6,10 @@ comments: true
 ## 本站信息
 
 ```yml
-- name: 拔剑Sketon
-  url: https://d-sketon.github.io/
-  desc: 东方人的日常
-  image: https://d-sketon.github.io/avatar/avatar.webp
+- name: 刘思齐（647）
+  url: https://MrLiu-647.github.io/
+  desc: 深夜空想家、白日梦想家、技术爱好者
+  image: https://MrLiu-647.github.io/avatar/avatar.webp
 ```
 
 ## 申请方法
