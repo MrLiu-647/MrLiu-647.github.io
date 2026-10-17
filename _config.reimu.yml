@@ -1,0 +1,54 @@
+# 站点级主题覆盖配置
+# 这里只需要写想改的项，未写的会自动沿用 themes/reimu/_config.yml 的默认值
+# 完整配置项与说明见 themes/reimu/_config.yml 和 themes/reimu/README.md
+
+menu:
+  - name: home
+    url: /
+    icon:
+  - name: archives
+    url: /archives
+    icon:
+  - name: about
+    url: /about
+    icon:
+  - name: friend
+    url: /friend
+    icon:
+
+subtitle:
+  typing:
+    enable: true
+    strings:
+      - 一个正在努力成长的 95 后 iOS 开发者
+      - 记录技术，也记录生活
+      - Stay hungry, stay foolish.
+    typeSpeed: 100
+    backSpeed: 50
+    backDelay: 2000
+    startDelay: 300
+    loop: true
+    shuffle: true
+    showCursor: true
+    cursorChar: "|"
+    smartBackspace: false
+
+avatar: "avatar.webp"
+
+social:
+  github: https://github.com/MrLiu-647
+
+footer:
+  since: 2017
+  powered: true
+  count: true
+  busuanzi: true
+  icon:
+    url: "../images/taichi.png"
+    rotate: true
+    mask: true
+
+generator_search:
+  enable: true
+  field: post
+  content: true
