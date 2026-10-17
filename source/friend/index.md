@@ -7,9 +7,9 @@ comments: true
 
 ```yml
 - name: 刘思齐（647）
-  url: https://MrLiu-647.github.io/
+  url: https://mrliu-647.github.io/
   desc: 深夜空想家、白日梦想家、技术爱好者
-  image: https://MrLiu-647.github.io/avatar/avatar.webp
+  image: https://mrliu-647.github.io/avatar/avatar.webp
 ```
 
 ## 申请方法
