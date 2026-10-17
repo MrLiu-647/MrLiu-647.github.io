@@ -7,13 +7,13 @@ menu:
     url: /
     icon:
   - name: archives
-    url: /archives
+    url: /archives/
     icon:
   - name: about
-    url: /about
+    url: /about/
     icon:
   - name: friend
-    url: /friend
+    url: /friend/
     icon:
 
 subtitle:
